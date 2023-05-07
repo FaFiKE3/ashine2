@@ -112,9 +112,9 @@ main {
   background-color: rgb(233, 233, 228);
 }
 footer {
-    padding-top:  10px;
+    padding-top:  36px;
     border-top: 2px solid grey;
-    padding:  0;
+    
     background-color: rgb(237, 235, 240);
 }
 footer h2 {
@@ -148,4 +148,24 @@ span{
 P {
   Font-size: 23px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.her1 {
+    font-size: 20px;
+   justify-content: space-between;
+    flex-wrap:wrap ;
+    border-bottom: 2px solid grey;
+    padding-top: 30px;
+   
+}
+.her1 li {
+  color: black;
+  font-size: 25px;
+}
+.her1 li:hover {
+  color: rgb(231, 37, 37);
+  transition: border 0.5s linear;
+}
+.her1 ul {
+  color: rgb(197, 45, 45);
+  font-size: 35px;
 }
